@@ -23,7 +23,7 @@ time, mark, audio, video {
 }
 
 .summary {
-  margin-top: -15px;
+  margin-top: -19px;
 }
 
 article, aside, details, figcaption, figure,
@@ -124,7 +124,7 @@ strong {
 
 /* every section wrapper */
 .section {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 section .location {
@@ -232,7 +232,8 @@ h2.section-title {
 .section > section > header {
     font-size: 1.38rem;
     position: relative;
-    margin-top: -0.6em;
+    margin-top: -0.8em;
+    margin-bottom: -5px;
 }
 
 .section > section > header:first-of-type {
@@ -490,11 +491,11 @@ ul.courses li:hover {
 }
 
 .margin1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .references-section {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 /****************

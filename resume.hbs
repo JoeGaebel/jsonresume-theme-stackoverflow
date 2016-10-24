@@ -511,13 +511,7 @@
 								<div class="header-left">
 									{{#if name}}
 										<span class="name">
-											{{#if website}}
-											<span class="website">
-												<a href="{{website}}">{{name}}</a>
-											</span>
-											{{else}}
-												{{name}}
-										  {{/if}}
+											{{name}}
 										</span>
 									{{/if}}
 									{{#if publisher}}
@@ -537,6 +531,11 @@
 									{{/if}}
 								</div>
 							</header>
+							{{#if website}}
+									<span class="website">
+											<a href="{{website}}">{{website}}</a>
+									</span>
+							{{/if}}
 							{{#if keywords.length}}
 								<ul class="keywords">
 									{{#each keywords}}
