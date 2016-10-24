@@ -496,7 +496,7 @@
 			{{#if resume.publications.length}}
 				<section class="section">
 					<header>
-						<h2 class='section-title'>Publications</h2>
+						<h2 class='section-title'>Projects</h2>
 					</header>
 					<section id="publications">
 						{{#each resume.publications}}
@@ -525,12 +525,12 @@
 											in {{publisher}}
 										</span>
 									{{/if}}
+									{{#if releaseDate}}
+										<span class="date">
+											{{MY releaseDate}}
+										</span>
+									{{/if}}
 								</div>
-								{{#if releaseDate}}
-									<span class="date">
-										{{DMY releaseDate}}
-									</span>
-								{{/if}}
 							</header>
 							{{#if keywords.length}}
 								<ul class="keywords">
