@@ -370,11 +370,6 @@
 											{{area}}
 										</div>
 									{{/if}}
-									{{#if institution}}
-										<div class="institution">
-											{{institution}}
-										</div>
-									{{/if}}
 									<div class="date">
 										{{#if startDate}}
 										<span class="startDate">
@@ -391,6 +386,11 @@
 										</span>
 										{{/if}}
 									</div>
+									{{#if institution}}
+										<div class="institution no-awarder">
+											{{institution}}
+										</div>
+									{{/if}}
 								</div>
 							</header>
 
@@ -528,6 +528,11 @@
 									{{#if releaseDate}}
 										<span class="date">
 											{{MY releaseDate}}
+										</span>
+									{{/if}}
+									{{#if upcoming}}
+										<span class="date">
+											In Development
 										</span>
 									{{/if}}
 								</div>
