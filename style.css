@@ -124,7 +124,7 @@ strong {
 
 /* every section wrapper */
 .section {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 section .location {
@@ -491,7 +491,7 @@ ul.courses li:hover {
 }
 
 .margin1 {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.2rem;
 }
 
 .references-section {
