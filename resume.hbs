@@ -616,7 +616,13 @@
 					</section>
 				</section>
 			{{/if}}
-
+			{{#if resume.reference-message.length }}
+			<section class="section references-section">
+				<header>
+					<h2 class='section-title'>{{resume.reference-message}}</h2>
+				</header>
+			</section>
+			{{/if}}
 			{{#if resume.references.length}}
 				<section class="section references-section">
 					<header>
