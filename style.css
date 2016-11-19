@@ -69,7 +69,7 @@ body, html {
 
 p {
     display: block;
-    margin-bottom: 1.3em;
+    margin-bottom: 1.5em;
 }
 
 a {
@@ -119,7 +119,8 @@ strong {
 /* main container */
 #resume {
     padding: 1rem;
-    margin-top: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 /* every section wrapper */
@@ -232,7 +233,7 @@ h2.section-title {
 .section > section > header {
     font-size: 1.38rem;
     position: relative;
-    margin-top: -0.8em;
+    margin-top: -0.6em;
     margin-bottom: -5px;
 }
 
@@ -296,7 +297,7 @@ h2.section-title {
 
 .section header .date {
     float: right !important;
-    line-height: 25px;
+    line-height: 27px;
     font-size: 1rem;
     display: block;
     padding: .1em 0;
@@ -496,17 +497,25 @@ ul.courses li:hover {
     opacity: 1 !important;
 }
 
-.margin1 {
-    margin-bottom: 0.2rem;
-}
+/*.margin1 {
+    margin-bottom: 1.2rem;
+}*/
 
 .references-section {
-  margin-top: -1.5rem;
+  margin-top: -1.2rem;
   margin-bottom: 0;
 }
 
 span.website {
     line-height: 1.6;
+}
+
+section#publications header {
+  margin-bottom: -8px;
+}
+
+section.education {
+  margin-top: -8px;
 }
 
 /****************
