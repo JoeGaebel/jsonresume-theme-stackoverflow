@@ -249,6 +249,12 @@ h2.section-title {
     opacity: 0;
 }
 
+#reference-message {
+  margin-left: 31%;
+  padding-left: 1em;
+  white-space: nowrap;
+}
+
 .position,
 .company,
 .organization,
@@ -495,7 +501,8 @@ ul.courses li:hover {
 }
 
 .references-section {
-  margin-top: 0rem;
+  margin-top: -1.5rem;
+  margin-bottom: 0;
 }
 
 /****************
