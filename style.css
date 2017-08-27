@@ -91,9 +91,9 @@ ul.work-bullets {
 }
 
 li {
-    list-style-type: square;
+    list-style-type: disc;
     list-style-position: outside;
-    margin-left: 1.3em;
+    margin-left: 1.5em;
 }
 
 h1 {
@@ -241,8 +241,13 @@ h2.section-title {
     margin-bottom: -5px;
 }
 
-.section > section > header:first-of-type {
+.section > section:not(#work) > header:first-of-type {
     margin: 0;
+}
+
+.section > section#work > header:first-of-type,
+.section > section#publications > header:first-of-type {
+    margin-top: 0;
 }
 
 .section > section > header .space-left {
@@ -512,6 +517,7 @@ ul.courses li:hover {
 
 span.website {
     line-height: 1.6;
+    padding-left: 0.1em;
 }
 
 section#publications header {
