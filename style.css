@@ -86,8 +86,12 @@ ul {
     margin-top: 1rem;
 }
 
-ul.work-bullets {
+ul.bullets {
     padding: 0.5rem 0 1.2rem 0;
+}
+
+ul.bullets li {
+    margin-top: 0.15em;
 }
 
 li {
