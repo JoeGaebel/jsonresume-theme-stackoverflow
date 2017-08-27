@@ -241,12 +241,9 @@ h2.section-title {
     margin-bottom: -5px;
 }
 
-.section > section:not(#work) > header:first-of-type {
-    margin: 0;
-}
-
 .section > section#work > header:first-of-type,
-.section > section#publications > header:first-of-type {
+.section > section#publications > header:first-of-type,
+.section > section#education > header:first-of-type {
     margin-top: 0;
 }
 
