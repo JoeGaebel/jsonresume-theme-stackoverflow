@@ -78,4 +78,21 @@
 
         return new Handlebars.SafeString(out.join(''));
     });
+
+  Handlebars.registerHelper('isArray', function(value, options) {
+    if (value instanceof Array) {
+      return options.fn(this);
+    }
+    return options.inverse(this);
+  });
+
+  Handlebars.registerHelper('bulletPoints', function(lines) {
+    var output = '';
+    for (var i in lines) {
+      output += '<li>' + lines[i] + '</li>';
+    }
+
+    return new Handlebars.SafeString(output);
+  });
+
 }());
