@@ -131,7 +131,7 @@ strong {
 
 /* every section wrapper */
 .section {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 section .location {
@@ -338,6 +338,7 @@ ul.courses li:hover {
 
 .item {
     padding: -0.5em 0;
+    padding-bottom: 0.5em;
     /*width: 100%;*/
 }
 
@@ -525,4 +526,5 @@ section#publications header {
 
 section.education {
   margin-top: -8px;
+  margin-bottom: 1.5rem;
 }
