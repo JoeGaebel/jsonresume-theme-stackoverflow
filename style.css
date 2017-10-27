@@ -511,7 +511,7 @@ ul.courses li:hover {
 }*/
 
 .references-section {
-  margin-top: -1.2rem;
+  margin-top: -1rem;
   margin-bottom: 0;
 }
 
@@ -520,11 +520,19 @@ span.website {
     padding-left: 0.1em;
 }
 
+section {
+  padding-top: 3px;
+}
+
 section#publications header {
   margin-bottom: -8px;
 }
 
 section.education {
-  margin-top: -8px;
+  margin-top: -1.5rem;
   margin-bottom: 1.5rem;
+}
+
+section.projects {
+  margin-top: -1.5rem;
 }
