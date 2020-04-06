@@ -1,16 +1,13 @@
 <!doctype html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 		<style>
 			{{{css}}}
 		</style>
 	</head>
-
 	<body>
 		<div id="resume">
 			{{#resume.basics}}
@@ -148,42 +145,42 @@
 						<h2 class='section-title'>Work Experience</h2>
 					</header>
 					<section id="work">
-						{{#each resume.work}}
-							{{#if company}}
-								<header>
-									<span class="space-left">
-										{{#if @first}}
-											<span class="fa fa-caret-down"></span>
-										{{else}}
-											<span class="fa fa-caret-right"></span>
-										{{/if}}
-									</span>
-									{{#if position}}
-									<div class="position">
-										{{position}}
-									</div>
-									{{/if}}
-									<div class="company">
-										{{company}}
-									</div>
-									<div class="date">
-										{{#if startDate}}
-										<span class="startDate">
-											{{MY startDate}}
-										</span>
-										{{/if}}
-										{{#if endDate}}
-										<span class="endDate">
-											- {{MY endDate}}
-										</span>
-										{{else}}
-										<span class="endDate">
-											- Current
-										</span>
-										{{/if}}
-									</div>
-								</header>
-							{{/if}}
+                    {{#each resume.work}}
+                        {{#if company}}
+                            <header>
+                                <span class="space-left">
+                                    {{#if @first}}
+                                        <span class="fa fa-caret-down"></span>
+                                    {{else}}
+                                        <span class="fa fa-caret-right"></span>
+                                    {{/if}}
+                                </span>
+                                {{#if position}}
+                                <div class="position">
+                                    {{position}}
+                                </div>
+                                {{/if}}
+                                <div class="company">
+                                    {{company}}
+                                </div>
+                                <div class="date">
+                                    {{#if startDate}}
+                                    <span class="startDate">
+                                        {{MY startDate}}
+                                    </span>
+                                    {{/if}}
+                                    {{#if endDate}}
+                                    <span class="endDate">
+                                        - {{MY endDate}}
+                                    </span>
+                                    {{else}}
+                                    <span class="endDate">
+                                        - Current
+                                    </span>
+                                    {{/if}}
+                                </div>
+                            </header>
+                        {{/if}}
 
                {{#location}}
                   <span class="location">

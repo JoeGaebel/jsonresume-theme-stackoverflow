@@ -23,7 +23,12 @@ time, mark, audio, video {
 }
 
 .summary {
-  margin-top: -19px;
+    margin-top: -35px;
+    margin-bottom: 15px;
+}
+
+header {
+    white-space: nowrap;
 }
 
 article, aside, details, figcaption, figure,
@@ -58,13 +63,12 @@ table {
 ****************/
 body, html {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 13px;
+    font-size: 25px;
     color: #40484f;
     font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.46153846;
+    letter-spacing: 0.3px;
+    line-height: 1.35;
     text-align: left;
-    webkit-text-size-adjust: 100%;
 }
 
 p {
@@ -126,12 +130,12 @@ strong {
 
 /* main container */
 #resume {
-    padding: 0, 1rem, 0, 1rem;
+    padding: 0 0 0 0;
 }
 
 /* every section wrapper */
 .section {
-  margin-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 section .location {
@@ -259,9 +263,9 @@ h2.section-title {
 }
 
 #reference-message {
-  margin-left: 31%;
-  padding-left: 1em;
-  white-space: nowrap;
+    margin-left: 31%;
+    padding-left: 1em;
+    white-space: nowrap;
 }
 
 .position,
@@ -291,8 +295,9 @@ h2.section-title {
 .awarder::before {
     content: "at "
 }
+
 .no-awarder::before {
-  content: none !important;
+    content: none !important;
 }
 
 .company,
@@ -321,8 +326,8 @@ ul.keywords li,
 ul.courses li {
     display: inline-block;
     margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
+    padding: 10px 8px 8px;
+    font-size: 1rem;
     line-height: 1;
     text-transform: lowercase;
     color: #3e6d8e;
@@ -337,9 +342,7 @@ ul.courses li:hover {
 }
 
 .item {
-    padding: -0.5em 0;
-    padding-bottom: 0.5em;
-    /*width: 100%;*/
+    padding: -0.5em 0 0.5em;
 }
 
 .gpa {
@@ -487,8 +490,8 @@ ul.courses li:hover {
 }
 
 .referer {
-  font-weight: 900;
-  margin-bottom: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 /******************
@@ -511,8 +514,8 @@ ul.courses li:hover {
 }*/
 
 .references-section {
-  margin-top: -1rem;
-  margin-bottom: 0;
+    margin-top: -45px;
+    margin-bottom: 0;
 }
 
 span.website {
@@ -521,18 +524,18 @@ span.website {
 }
 
 section {
-  padding-top: 3px;
+    padding-top: 3px;
 }
 
 section#publications header {
-  margin-bottom: -8px;
+    margin-bottom: -8px;
 }
 
 section.education {
-  margin-top: -1.5rem;
-  margin-bottom: 1.5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 section.projects {
-  margin-top: -1.5rem;
+    margin-top: -1.5rem;
 }
