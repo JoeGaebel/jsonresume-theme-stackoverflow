@@ -59,7 +59,7 @@
 						{{#if website}}
 						<div class="website">
               <span class="fa fa-external-link"></span>
-							<a target="_blank" href="{{website}}">{{website}}</a>
+							<a target="_blank" href="{{website}}">{{withoutHTTPS website}}</a>
 						</div>
 						{{/if}}
 						{{#if email}}
@@ -204,7 +204,7 @@
               {{/location}}
               {{#if website}}
                   <span class="website">
-                      <a href="{{website}}">{{website}}</a>
+                      <a href="{{website}}">{{withoutHTTPS website}}</a>
                   </span>
               {{/if}}
 
@@ -331,7 +331,7 @@
 								{{/if}}
 								{{#if website}}
 									<div class="website">
-										<a href="{{website}}">{{website}}</a>
+										<a href="{{website}}">{{withoutHTTPS website}}</a>
 									</div>
 								{{/if}}
 								{{#if highlights.length}}
@@ -436,7 +436,7 @@
 							</header>
 							{{#if website}}
 									<span class="website">
-											<a href="{{website}}">{{website}}</a>
+											<a href="{{website}}">{{withoutHTTPS website}}</a>
 									</span>
 							{{/if}}
 							{{#if keywords.length}}
