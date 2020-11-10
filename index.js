@@ -38,8 +38,8 @@
       return str.toLowerCase();
     });
 
-    Handlebars.registerHelper('withoutHTTPS', function(str) {
-        return str.replace("https://", "");
+    Handlebars.registerHelper('stripURL', function(str) {
+        return str.replace("https://www.", "");
     });
 
     Handlebars.registerHelper('spaceToDash', function(str) {
